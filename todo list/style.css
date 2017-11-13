@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.container {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+
+input {
+    position: relative;
+    outline: none;
+    text-indent: 5px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 7px;  
+    padding: 10px; 
+}
+li {
+    border: 1px solid #fff;
+    background: #eee;
+    padding: 10px 10px;
+    color: #000;
+    position: relative;
+}
+
+li span {
+    padding-left: 10 px; 
+    padding-right: 100 px;
+    cursor: default;
+}
+.checked {
+    text-decoration: line-through;
+    font-weight: bold; 
+    color: green;
+}
+button.new {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(8, 100, 238);
+    padding: 8px 15px;
+    margin: 0 5px;
+    outline: none;
+    border: none;
+} 
+button.new:hover { 
+    background: rgb(25, 103, 155); 
+}
+button.new:active { 
+    background: rgb(17, 2, 151); 
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(212,75,56);
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+    position: relative; 
+    right: 0;
+    top: -7px;
+    float: right;
+    margin-right: -5px;
+} 
+.button:hover { 
+    background: rgb(232,95,76); 
+}
+.button:active { 
+    background: rgb(152,15,0); 
+}
+
+input[type = "checkbox"]{
+    margin-right: 10px;
+    margin-left: 0; 
+}
